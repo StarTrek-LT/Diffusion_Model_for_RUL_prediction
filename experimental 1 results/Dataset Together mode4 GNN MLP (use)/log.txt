@@ -1,0 +1,514 @@
+D:\software\anaconda3\envs\01_AeroEngine_RUL\python.exe D:\research\projects\01_AeroEngine_RUL\N-CMAPSS_src\DM_Framework_DIT_backup.py 
+2024-05-04-30
+Output path:  ./results/DM_FRAMEWORK_V0.2/2024-05-04-30\Dataset Together
+-------分隔符--------
+Dataset file path: ../src_V2.4/model/preprocessing/enhanced_data.feather
+Data loading...
+Data loading complete!
+Names of the data contained in the dataset:
+Index(['alt', 'Mach', 'TRA', 'T2', 'unit', 'cycle', 'Fc', 'hs', 'index', 'T24',
+       'T30', 'T48', 'T50', 'P15', 'P2', 'P21', 'P24', 'Ps30', 'P40', 'P50',
+       'Nf', 'Nc', 'Wf', 'flag', 'fan_eff_mod', 'fan_flow_mod', 'LPC_eff_mod',
+       'LPC_flow_mod', 'HPC_eff_mod', 'HPC_flow_mod', 'HPT_eff_mod',
+       'HPT_flow_mod', 'LPT_eff_mod', 'LPT_flow_mod', 'hs_total', 'RUL',
+       'time', 'set'],
+      dtype='object')
+-------分隔符--------
+Data(edge_index=[2, 94], weight=[94], node_size=15, font_size=8, num_nodes=14)
+dataset:  DS01
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+dataset:  DS02
+units:  [ 2.  5. 10. 11. 14. 15. 16. 18. 20.]
+dataset:  DS03
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15.]
+dataset:  DS04
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+dataset:  DS05
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+dataset:  DS06
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+dataset:  DS07
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+dataset:  DS08a
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 15.]
+dataset:  DS08c
+units:  [ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+condition model: {model_path}
+Training model ...
+Epoch [1/300], step [129/129]: 100%|██████████| 129/129 [00:09<00:00, 13.42it/s, condition_loss=0, eps_loss=0.165, loss=0.165]
+Epoch [2/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.04it/s, condition_loss=0, eps_loss=0.0445, loss=0.0445]
+Epoch [3/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.45it/s, condition_loss=0, eps_loss=0.0397, loss=0.0397]
+Epoch [4/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.58it/s, condition_loss=0, eps_loss=0.0363, loss=0.0363]
+Epoch [5/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0351, loss=0.0351]
+Epoch [6/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.54it/s, condition_loss=0, eps_loss=0.0331, loss=0.0331]
+Epoch [7/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0336, loss=0.0336]
+Epoch [8/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.53it/s, condition_loss=0, eps_loss=0.0332, loss=0.0332]
+Epoch [9/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.36it/s, condition_loss=0, eps_loss=0.0327, loss=0.0327]
+Epoch [10/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.48it/s, condition_loss=0, eps_loss=0.0327, loss=0.0327]
+Epoch [11/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.49it/s, condition_loss=0, eps_loss=0.0306, loss=0.0306]
+Epoch [12/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0298, loss=0.0298]
+Epoch [13/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0303, loss=0.0303]
+Epoch [14/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.81it/s, condition_loss=0, eps_loss=0.0307, loss=0.0307]
+Epoch [15/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.78it/s, condition_loss=0, eps_loss=0.029, loss=0.029]
+Epoch [16/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.51it/s, condition_loss=0, eps_loss=0.0296, loss=0.0296]
+Epoch [17/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.31it/s, condition_loss=0, eps_loss=0.0309, loss=0.0309]
+Epoch [18/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.40it/s, condition_loss=0, eps_loss=0.03, loss=0.03]
+Epoch [19/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0303, loss=0.0303]
+Epoch [20/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.45it/s, condition_loss=0, eps_loss=0.0292, loss=0.0292]
+Epoch [21/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.31it/s, condition_loss=0, eps_loss=0.0279, loss=0.0279]
+Epoch [22/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.43it/s, condition_loss=0, eps_loss=0.0292, loss=0.0292]
+Epoch [23/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.22it/s, condition_loss=0, eps_loss=0.0283, loss=0.0283]
+Epoch [24/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.52it/s, condition_loss=0, eps_loss=0.0288, loss=0.0288]
+Epoch [25/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0276, loss=0.0276]
+Epoch [26/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.54it/s, condition_loss=0, eps_loss=0.0268, loss=0.0268]
+Epoch [27/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.50it/s, condition_loss=0, eps_loss=0.027, loss=0.027]
+Epoch [28/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.87it/s, condition_loss=0, eps_loss=0.0282, loss=0.0282]
+Epoch [29/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.52it/s, condition_loss=0, eps_loss=0.0275, loss=0.0275]
+Epoch [30/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.59it/s, condition_loss=0, eps_loss=0.0282, loss=0.0282]
+Epoch [31/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.57it/s, condition_loss=0, eps_loss=0.0265, loss=0.0265]
+Epoch [32/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.19it/s, condition_loss=0, eps_loss=0.0273, loss=0.0273]
+Epoch [33/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.16it/s, condition_loss=0, eps_loss=0.027, loss=0.027]
+Epoch [34/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.23it/s, condition_loss=0, eps_loss=0.027, loss=0.027]
+Epoch [35/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.24it/s, condition_loss=0, eps_loss=0.0269, loss=0.0269]
+Epoch [36/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.51it/s, condition_loss=0, eps_loss=0.0262, loss=0.0262]
+Epoch [37/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0273, loss=0.0273]
+Epoch [38/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.66it/s, condition_loss=0, eps_loss=0.0272, loss=0.0272]
+Epoch [39/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.49it/s, condition_loss=0, eps_loss=0.0266, loss=0.0266]
+Epoch [40/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.42it/s, condition_loss=0, eps_loss=0.0269, loss=0.0269]
+Epoch [41/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.46it/s, condition_loss=0, eps_loss=0.0257, loss=0.0257]
+Epoch [42/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.39it/s, condition_loss=0, eps_loss=0.0269, loss=0.0269]
+Epoch [43/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.66it/s, condition_loss=0, eps_loss=0.0259, loss=0.0259]
+Epoch [44/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.67it/s, condition_loss=0, eps_loss=0.0259, loss=0.0259]
+Epoch [45/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.44it/s, condition_loss=0, eps_loss=0.0262, loss=0.0262]
+Epoch [46/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.42it/s, condition_loss=0, eps_loss=0.0256, loss=0.0256]
+Epoch [47/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.40it/s, condition_loss=0, eps_loss=0.0258, loss=0.0258]
+Epoch [48/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.11it/s, condition_loss=0, eps_loss=0.0262, loss=0.0262]
+Epoch [49/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.02it/s, condition_loss=0, eps_loss=0.0262, loss=0.0262]
+Epoch [50/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.96it/s, condition_loss=0, eps_loss=0.0254, loss=0.0254]
+Epoch [51/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.13it/s, condition_loss=0, eps_loss=0.0258, loss=0.0258]
+Epoch [52/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.43it/s, condition_loss=0, eps_loss=0.0264, loss=0.0264]
+Epoch [53/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.54it/s, condition_loss=0, eps_loss=0.026, loss=0.026]
+Epoch [54/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.54it/s, condition_loss=0, eps_loss=0.026, loss=0.026]
+Epoch [55/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.47it/s, condition_loss=0, eps_loss=0.0249, loss=0.0249]
+Epoch [56/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.44it/s, condition_loss=0, eps_loss=0.0269, loss=0.0269]
+Epoch [57/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.45it/s, condition_loss=0, eps_loss=0.0247, loss=0.0247]
+Epoch [58/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.32it/s, condition_loss=0, eps_loss=0.0252, loss=0.0252]
+Epoch [59/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.53it/s, condition_loss=0, eps_loss=0.0252, loss=0.0252]
+Epoch [60/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.88it/s, condition_loss=0, eps_loss=0.025, loss=0.025]
+Epoch [61/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.86it/s, condition_loss=0, eps_loss=0.0252, loss=0.0252]
+Epoch [62/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.35it/s, condition_loss=0, eps_loss=0.025, loss=0.025]
+Epoch [63/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.62it/s, condition_loss=0, eps_loss=0.0243, loss=0.0243]
+Epoch [64/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.39it/s, condition_loss=0, eps_loss=0.0252, loss=0.0252]
+Epoch [65/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.31it/s, condition_loss=0, eps_loss=0.0247, loss=0.0247]
+Epoch [66/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.42it/s, condition_loss=0, eps_loss=0.0247, loss=0.0247]
+Epoch [67/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.95it/s, condition_loss=0, eps_loss=0.0239, loss=0.0239]
+Epoch [68/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.96it/s, condition_loss=0, eps_loss=0.0247, loss=0.0247]
+Epoch [69/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.57it/s, condition_loss=0, eps_loss=0.0243, loss=0.0243]
+Epoch [70/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.53it/s, condition_loss=0, eps_loss=0.0245, loss=0.0245]
+Epoch [71/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.48it/s, condition_loss=0, eps_loss=0.0256, loss=0.0256]
+Epoch [72/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.51it/s, condition_loss=0, eps_loss=0.0243, loss=0.0243]
+Epoch [73/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.83it/s, condition_loss=0, eps_loss=0.0242, loss=0.0242]
+Epoch [74/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0237, loss=0.0237]
+Epoch [75/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0244, loss=0.0244]
+Epoch [76/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.34it/s, condition_loss=0, eps_loss=0.0237, loss=0.0237]
+Epoch [77/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.19it/s, condition_loss=0, eps_loss=0.0244, loss=0.0244]
+Epoch [78/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.40it/s, condition_loss=0, eps_loss=0.024, loss=0.024]
+Epoch [79/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.98it/s, condition_loss=0, eps_loss=0.0257, loss=0.0257]
+Epoch [80/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.72it/s, condition_loss=0, eps_loss=0.0239, loss=0.0239]
+Epoch [81/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.09it/s, condition_loss=0, eps_loss=0.0244, loss=0.0244]
+Epoch [82/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.18it/s, condition_loss=0, eps_loss=0.0244, loss=0.0244]
+Epoch [83/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.24it/s, condition_loss=0, eps_loss=0.0231, loss=0.0231]
+Epoch [84/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.10it/s, condition_loss=0, eps_loss=0.0235, loss=0.0235]
+Epoch [85/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.49it/s, condition_loss=0, eps_loss=0.0233, loss=0.0233]
+Epoch [86/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.30it/s, condition_loss=0, eps_loss=0.0234, loss=0.0234]
+Epoch [87/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0236, loss=0.0236]
+Epoch [88/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.41it/s, condition_loss=0, eps_loss=0.0236, loss=0.0236]
+Epoch [89/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0232, loss=0.0232]
+Epoch [90/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0238, loss=0.0238]
+Epoch [91/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.25it/s, condition_loss=0, eps_loss=0.0239, loss=0.0239]
+Epoch [92/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.43it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [93/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0234, loss=0.0234]
+Epoch [94/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.32it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [95/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.52it/s, condition_loss=0, eps_loss=0.0226, loss=0.0226]
+Epoch [96/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.56it/s, condition_loss=0, eps_loss=0.0231, loss=0.0231]
+Epoch [97/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.15it/s, condition_loss=0, eps_loss=0.0229, loss=0.0229]
+Epoch [98/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.45it/s, condition_loss=0, eps_loss=0.0229, loss=0.0229]
+Epoch [99/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.84it/s, condition_loss=0, eps_loss=0.0235, loss=0.0235]
+Epoch [100/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.89it/s, condition_loss=0, eps_loss=0.0242, loss=0.0242]
+Epoch [101/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.50it/s, condition_loss=0, eps_loss=0.0231, loss=0.0231]
+Epoch [102/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.34it/s, condition_loss=0, eps_loss=0.0241, loss=0.0241]
+Epoch [103/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.21it/s, condition_loss=0, eps_loss=0.0225, loss=0.0225]
+Epoch [104/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.49it/s, condition_loss=0, eps_loss=0.0236, loss=0.0236]
+Epoch [105/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.12it/s, condition_loss=0, eps_loss=0.0225, loss=0.0225]
+Epoch [106/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.47it/s, condition_loss=0, eps_loss=0.0226, loss=0.0226]
+Epoch [107/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.51it/s, condition_loss=0, eps_loss=0.0237, loss=0.0237]
+Epoch [108/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0231, loss=0.0231]
+Epoch [109/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.52it/s, condition_loss=0, eps_loss=0.0231, loss=0.0231]
+Epoch [110/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.94it/s, condition_loss=0, eps_loss=0.0235, loss=0.0235]
+Epoch [111/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.65it/s, condition_loss=0, eps_loss=0.0226, loss=0.0226]
+Epoch [112/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.64it/s, condition_loss=0, eps_loss=0.0218, loss=0.0218]
+Epoch [113/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.90it/s, condition_loss=0, eps_loss=0.0225, loss=0.0225]
+Epoch [114/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [115/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.50it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [116/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.62it/s, condition_loss=0, eps_loss=0.0228, loss=0.0228]
+Epoch [117/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.46it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [118/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.13it/s, condition_loss=0, eps_loss=0.0225, loss=0.0225]
+Epoch [119/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.45it/s, condition_loss=0, eps_loss=0.0223, loss=0.0223]
+Epoch [120/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.72it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [121/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [122/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.31it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [123/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.64it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [124/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.56it/s, condition_loss=0, eps_loss=0.022, loss=0.022]
+Epoch [125/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.47it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [126/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [127/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.37it/s, condition_loss=0, eps_loss=0.0228, loss=0.0228]
+Epoch [128/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.08it/s, condition_loss=0, eps_loss=0.0223, loss=0.0223]
+Epoch [129/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.34it/s, condition_loss=0, eps_loss=0.023, loss=0.023]
+Epoch [130/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.15it/s, condition_loss=0, eps_loss=0.022, loss=0.022]
+Epoch [131/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0213, loss=0.0213]
+Epoch [132/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.18it/s, condition_loss=0, eps_loss=0.0215, loss=0.0215]
+Epoch [133/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.15it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [134/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.19it/s, condition_loss=0, eps_loss=0.0217, loss=0.0217]
+Epoch [135/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.23it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [136/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.12it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [137/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.16it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [138/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.11it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [139/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [140/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.19it/s, condition_loss=0, eps_loss=0.0211, loss=0.0211]
+Epoch [141/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.22it/s, condition_loss=0, eps_loss=0.0219, loss=0.0219]
+Epoch [142/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.22it/s, condition_loss=0, eps_loss=0.0207, loss=0.0207]
+Epoch [143/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.20it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [144/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.10it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [145/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.19it/s, condition_loss=0, eps_loss=0.0217, loss=0.0217]
+Epoch [146/300], step [129/129]: 100%|██████████| 129/129 [00:11<00:00, 11.46it/s, condition_loss=0, eps_loss=0.0215, loss=0.0215]
+Epoch [147/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.91it/s, condition_loss=0, eps_loss=0.022, loss=0.022]
+Epoch [148/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.93it/s, condition_loss=0, eps_loss=0.022, loss=0.022]
+Epoch [149/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.59it/s, condition_loss=0, eps_loss=0.0223, loss=0.0223]
+Epoch [150/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0213, loss=0.0213]
+Epoch [151/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.75it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [152/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.58it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [153/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.65it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [154/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 16.89it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [155/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.70it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [156/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.41it/s, condition_loss=0, eps_loss=0.0221, loss=0.0221]
+Epoch [157/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.43it/s, condition_loss=0, eps_loss=0.0217, loss=0.0217]
+Epoch [158/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.58it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [159/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.89it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [160/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.10it/s, condition_loss=0, eps_loss=0.022, loss=0.022]
+Epoch [161/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.07it/s, condition_loss=0, eps_loss=0.0226, loss=0.0226]
+Epoch [162/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.71it/s, condition_loss=0, eps_loss=0.0215, loss=0.0215]
+Epoch [163/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.40it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [164/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0216, loss=0.0216]
+Epoch [165/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.50it/s, condition_loss=0, eps_loss=0.0208, loss=0.0208]
+Epoch [166/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.71it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [167/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.93it/s, condition_loss=0, eps_loss=0.0224, loss=0.0224]
+Epoch [168/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.00it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [169/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.00it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [170/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.13it/s, condition_loss=0, eps_loss=0.0217, loss=0.0217]
+Epoch [171/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.98it/s, condition_loss=0, eps_loss=0.0215, loss=0.0215]
+Epoch [172/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.14it/s, condition_loss=0, eps_loss=0.0202, loss=0.0202]
+Epoch [173/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.01it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [174/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.12it/s, condition_loss=0, eps_loss=0.0218, loss=0.0218]
+Epoch [175/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.03it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [176/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.08it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [177/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.02it/s, condition_loss=0, eps_loss=0.0207, loss=0.0207]
+Epoch [178/300], step [129/129]: 100%|██████████| 129/129 [00:08<00:00, 15.15it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [179/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00,  9.99it/s, condition_loss=0, eps_loss=0.0209, loss=0.0209]
+Epoch [180/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00,  9.99it/s, condition_loss=0, eps_loss=0.0206, loss=0.0206]
+Epoch [181/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.07it/s, condition_loss=0, eps_loss=0.0206, loss=0.0206]
+Epoch [182/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.09it/s, condition_loss=0, eps_loss=0.0208, loss=0.0208]
+Epoch [183/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.15it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [184/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.09it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [185/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.11it/s, condition_loss=0, eps_loss=0.0209, loss=0.0209]
+Epoch [186/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00,  9.99it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [187/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0222, loss=0.0222]
+Epoch [188/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.39it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [189/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.32it/s, condition_loss=0, eps_loss=0.0214, loss=0.0214]
+Epoch [190/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.25it/s, condition_loss=0, eps_loss=0.0204, loss=0.0204]
+Epoch [191/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.21it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [192/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.26it/s, condition_loss=0, eps_loss=0.0206, loss=0.0206]
+Epoch [193/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.14it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [194/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.20it/s, condition_loss=0, eps_loss=0.0209, loss=0.0209]
+Epoch [195/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.20it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [196/300], step [129/129]: 100%|██████████| 129/129 [00:08<00:00, 15.54it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [197/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0218, loss=0.0218]
+Epoch [198/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.73it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [199/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.68it/s, condition_loss=0, eps_loss=0.0204, loss=0.0204]
+Epoch [200/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.83it/s, condition_loss=0, eps_loss=0.0209, loss=0.0209]
+Epoch [201/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [202/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.52it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [203/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [204/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.59it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [205/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0207, loss=0.0207]
+Epoch [206/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.90it/s, condition_loss=0, eps_loss=0.0208, loss=0.0208]
+Epoch [207/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.66it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [208/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.64it/s, condition_loss=0, eps_loss=0.0206, loss=0.0206]
+Epoch [209/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.80it/s, condition_loss=0, eps_loss=0.0212, loss=0.0212]
+Epoch [210/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [211/300], step [129/129]: 100%|██████████| 129/129 [00:10<00:00, 12.15it/s, condition_loss=0, eps_loss=0.0202, loss=0.0202]
+Epoch [212/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.12it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [213/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.13it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [214/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.23it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [215/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.20it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [216/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.12it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [217/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.18it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [218/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.29it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [219/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.27it/s, condition_loss=0, eps_loss=0.0204, loss=0.0204]
+Epoch [220/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0202, loss=0.0202]
+Epoch [221/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.21it/s, condition_loss=0, eps_loss=0.02, loss=0.02]
+Epoch [222/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.26it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [223/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.26it/s, condition_loss=0, eps_loss=0.021, loss=0.021]
+Epoch [224/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.26it/s, condition_loss=0, eps_loss=0.0211, loss=0.0211]
+Epoch [225/300], step [129/129]: 100%|██████████| 129/129 [00:10<00:00, 11.86it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [226/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.76it/s, condition_loss=0, eps_loss=0.0209, loss=0.0209]
+Epoch [227/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [228/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.87it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [229/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.65it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [230/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.75it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [231/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.99it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [232/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.72it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [233/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.05it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [234/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.81it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [235/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.89it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [236/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [237/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.80it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [238/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.46it/s, condition_loss=0, eps_loss=0.0196, loss=0.0196]
+Epoch [239/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.47it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [240/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.82it/s, condition_loss=0, eps_loss=0.0196, loss=0.0196]
+Epoch [241/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.48it/s, condition_loss=0, eps_loss=0.0204, loss=0.0204]
+Epoch [242/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.61it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [243/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.67it/s, condition_loss=0, eps_loss=0.0202, loss=0.0202]
+Epoch [244/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.59it/s, condition_loss=0, eps_loss=0.0195, loss=0.0195]
+Epoch [245/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.69it/s, condition_loss=0, eps_loss=0.0204, loss=0.0204]
+Epoch [246/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [247/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.74it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [248/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.89it/s, condition_loss=0, eps_loss=0.0207, loss=0.0207]
+Epoch [249/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.80it/s, condition_loss=0, eps_loss=0.0203, loss=0.0203]
+Epoch [250/300], step [129/129]: 100%|██████████| 129/129 [00:08<00:00, 14.79it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [251/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.31it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [252/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.29it/s, condition_loss=0, eps_loss=0.0205, loss=0.0205]
+Epoch [253/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [254/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.23it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [255/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.11it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [256/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.21it/s, condition_loss=0, eps_loss=0.0192, loss=0.0192]
+Epoch [257/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.20it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [258/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.29it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [259/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.31it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [260/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.26it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [261/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.23it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [262/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [263/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.13it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [264/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.01it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [265/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.17it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [266/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.33it/s, condition_loss=0, eps_loss=0.0196, loss=0.0196]
+Epoch [267/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.30it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [268/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.27it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [269/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.24it/s, condition_loss=0, eps_loss=0.0199, loss=0.0199]
+Epoch [270/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.10it/s, condition_loss=0, eps_loss=0.0191, loss=0.0191]
+Epoch [271/300], step [129/129]: 100%|██████████| 129/129 [00:10<00:00, 12.69it/s, condition_loss=0, eps_loss=0.0192, loss=0.0192]
+Epoch [272/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.63it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [273/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.82it/s, condition_loss=0, eps_loss=0.0195, loss=0.0195]
+Epoch [274/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.55it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [275/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.90it/s, condition_loss=0, eps_loss=0.0195, loss=0.0195]
+Epoch [276/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.11it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [277/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.70it/s, condition_loss=0, eps_loss=0.019, loss=0.019]
+Epoch [278/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.01it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [279/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.01it/s, condition_loss=0, eps_loss=0.0187, loss=0.0187]
+Epoch [280/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.13it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [281/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.03it/s, condition_loss=0, eps_loss=0.0192, loss=0.0192]
+Epoch [282/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.10it/s, condition_loss=0, eps_loss=0.0196, loss=0.0196]
+Epoch [283/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.09it/s, condition_loss=0, eps_loss=0.0188, loss=0.0188]
+Epoch [284/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.01it/s, condition_loss=0, eps_loss=0.0198, loss=0.0198]
+Epoch [285/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.09it/s, condition_loss=0, eps_loss=0.0191, loss=0.0191]
+Epoch [286/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.08it/s, condition_loss=0, eps_loss=0.0194, loss=0.0194]
+Epoch [287/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.86it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [288/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.05it/s, condition_loss=0, eps_loss=0.0181, loss=0.0181]
+Epoch [289/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 18.00it/s, condition_loss=0, eps_loss=0.0188, loss=0.0188]
+Epoch [290/300], step [129/129]: 100%|██████████| 129/129 [00:07<00:00, 17.94it/s, condition_loss=0, eps_loss=0.0191, loss=0.0191]
+Epoch [291/300], step [129/129]: 100%|██████████| 129/129 [00:09<00:00, 13.55it/s, condition_loss=0, eps_loss=0.0189, loss=0.0189]
+Epoch [292/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.14it/s, condition_loss=0, eps_loss=0.0201, loss=0.0201]
+Epoch [293/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.34it/s, condition_loss=0, eps_loss=0.0197, loss=0.0197]
+Epoch [294/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.35it/s, condition_loss=0, eps_loss=0.0192, loss=0.0192]
+Epoch [295/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.24it/s, condition_loss=0, eps_loss=0.0191, loss=0.0191]
+Epoch [296/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.30it/s, condition_loss=0, eps_loss=0.019, loss=0.019]
+Epoch [297/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.15it/s, condition_loss=0, eps_loss=0.0193, loss=0.0193]
+Epoch [298/300], step [129/129]: 100%|██████████| 129/129 [00:13<00:00,  9.82it/s, condition_loss=0, eps_loss=0.0192, loss=0.0192]
+Epoch [299/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00, 10.11it/s, condition_loss=0, eps_loss=0.0193, loss=0.0193]
+Epoch [300/300], step [129/129]: 100%|██████████| 129/129 [00:12<00:00,  9.92it/s, condition_loss=0, eps_loss=0.0186, loss=0.0186]
+training time:  675.8125
+84/84: 100%|██████████| 84/84 [00:10<00:00,  8.22it/s]
+Draw image: 
+Dataset: DS01
+Dataset: DS02
+Dataset: DS03
+Dataset: DS04
+Dataset: DS05
+Dataset: DS06
+Dataset: DS07
+Dataset: DS08a
+Dataset: DS08c
+
+
+Sub-dataset results:
+Dataset: DS01
+Prediction RUL by MAGF-SPA: 
+RMSE : 6.373421669006348
+MSE : sum 13851.5908203125, average 40.62050093933284
+NASAsfn : sum 568.3627654751767, average 0.6667529779330696
+score : 3.5200873234697085
+DTW : 481.4498198926449
+Prediction RUL by diffusion: 
+RMSE : 5.9711012840271
+MSE : sum 12158.03125, average 35.654050586510266
+NASAsfn : sum 529.0278987693407, average 0.5514014626666883
+score : 3.261251373346894
+DTW : 587.0563889145851
+
+
+Sub-dataset results:
+Dataset: DS02
+Prediction RUL by MAGF-SPA: 
+RMSE : 15.593213081359863
+MSE : sum 49115.95703125, average 243.148302134901
+NASAsfn : sum 1113.5734158555617, average 4.512739682453276
+score : 10.05297638190657
+DTW : 982.9211859703064
+Prediction RUL by diffusion: 
+RMSE : 12.349395751953125
+MSE : sum 30806.53125, average 152.50758044554456
+NASAsfn : sum 616.0218483978578, average 2.049613110880484
+score : 7.199504431416805
+DTW : 651.139128446579
+
+
+Sub-dataset results:
+Dataset: DS03
+Prediction RUL by MAGF-SPA: 
+RMSE : 10.239912033081055
+MSE : sum 45926.8359375, average 104.85578981164383
+NASAsfn : sum 937.9352625859948, average 1.1414047091004447
+score : 5.69065837109075
+DTW : 1108.8883911669254
+Prediction RUL by diffusion: 
+RMSE : 9.7178955078125
+MSE : sum 41363.625, average 94.4375
+NASAsfn : sum 895.5424066778409, average 1.0446173668443857
+score : 5.381256437328442
+DTW : 983.5015344023705
+
+
+Sub-dataset results:
+Dataset: DS04
+Prediction RUL by MAGF-SPA: 
+RMSE : 10.987129211425781
+MSE : sum 41526.6484375, average 120.71700127180233
+NASAsfn : sum 1144.201328109599, average 2.3261666514813926
+score : 6.656647931453587
+DTW : 810.7409702539444
+Prediction RUL by diffusion: 
+RMSE : 11.506734848022461
+MSE : sum 45547.30078125, average 132.4049441315407
+NASAsfn : sum 1303.183973945906, average 2.7883255056567036
+score : 7.147530176839583
+DTW : 558.878229111433
+
+
+Sub-dataset results:
+Dataset: DS05
+Prediction RUL by MAGF-SPA: 
+RMSE : 7.197707176208496
+MSE : sum 16940.88671875, average 51.80699302370031
+NASAsfn : sum 565.7269785221235, average 0.7300519220860047
+score : 3.9638795491472503
+DTW : 440.1821027994156
+Prediction RUL by diffusion: 
+RMSE : 7.701303482055664
+MSE : sum 19394.39453125, average 59.31007501911315
+NASAsfn : sum 562.3690889785289, average 0.71978314672333
+score : 4.210543314389497
+DTW : 577.4755202494562
+
+
+Sub-dataset results:
+Dataset: DS06
+Prediction RUL by MAGF-SPA: 
+RMSE : 9.556772232055664
+MSE : sum 29408.87109375, average 91.33189780667702
+NASAsfn : sum 822.3219224732685, average 1.5537947902896536
+score : 5.555283511172659
+DTW : 753.1233307346702
+Prediction RUL by diffusion: 
+RMSE : 7.876081943511963
+MSE : sum 19974.51953125, average 62.03266935170807
+NASAsfn : sum 622.3869093867758, average 0.9328786005800489
+score : 4.404480272046006
+DTW : 657.3327194452286
+
+
+Sub-dataset results:
+Dataset: DS07
+Prediction RUL by MAGF-SPA: 
+RMSE : 9.913722038269043
+MSE : sum 33808.96875, average 98.2818859011628
+NASAsfn : sum 904.0185102112515, average 1.627960785497824
+score : 5.770841411883433
+DTW : 597.9478452205658
+Prediction RUL by diffusion: 
+RMSE : 9.334427833557129
+MSE : sum 29973.25, average 87.13154069767442
+NASAsfn : sum 844.057732562441, average 1.4536561993094215
+score : 5.394042016433275
+DTW : 756.9688723087311
+
+
+Sub-dataset results:
+Dataset: DS08a
+Prediction RUL by MAGF-SPA: 
+RMSE : 10.267502784729004
+MSE : sum 40376.4765625, average 105.4216098237598
+NASAsfn : sum 999.6947195771992, average 1.610168980619319
+score : 5.938835882674161
+DTW : 1533.6689946651459
+Prediction RUL by diffusion: 
+RMSE : 8.700810432434082
+MSE : sum 28994.66796875, average 75.70409391318537
+NASAsfn : sum 846.0121953789796, average 1.2089091263158736
+score : 4.954859779374978
+DTW : 1237.8036266565323
+
+
+Sub-dataset results:
+Dataset: DS08c
+Prediction RUL by MAGF-SPA: 
+RMSE : 9.249454498291016
+MSE : sum 20275.919921875, average 85.5524047336498
+NASAsfn : sum 472.7992520599135, average 0.9949335529954155
+score : 5.122194025643216
+DTW : 899.1329509019852
+Prediction RUL by diffusion: 
+RMSE : 9.402576446533203
+MSE : sum 20952.80078125, average 88.4084421149789
+NASAsfn : sum 509.61906178464517, average 1.1502913999352118
+score : 5.276433923234207
+DTW : 749.9053793549538
+
+
+
+
+All data results:
+Prediction RUL by MAGF-SPA: 
+RMSE : 9.956202507019043
+MSE : sum 291232.125, average 99.12597855684139
+NASAsfn : sum 7528.63415487009, average 1.5625031160211336
+score : 5.759352811520088
+DTW : 7629.091892264783
+Prediction RUL by diffusion: 
+RMSE : 9.209111213684082
+MSE : sum 249165.109375, average 84.80772953539822
+NASAsfn : sum 6728.221115882318, average 1.2900684533295843
+score : 5.249589833506834
+DTW : 6788.001195337623
+Dataset Complete the training! 
+ALL Done! 
+
+Process finished with exit code 0
